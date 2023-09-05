@@ -1,0 +1,19 @@
+.black-screen {
+    position: static;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    z-index: 9999;
+  }
+  
+  .black-screen-spots {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://i.imgur.com/dHZ5VQx.png');
+    opacity: 0.5; /* Puoi regolare l'opacità delle macchie a tuo piacimento */
+  }

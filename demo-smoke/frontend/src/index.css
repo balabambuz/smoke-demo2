@@ -1,0 +1,160 @@
+ body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+main{
+  min-height: 80vh;
+}
+
+h1{
+  font-size: 1.4rem;
+  padding:1rem;
+}
+
+h2{
+  font-size: 1.4rem;
+  padding:1rem;
+}
+
+h3{
+  padding:1rem 0;
+}
+
+.rating span{
+  margin: 0.1rem;
+}
+  
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item-inactive {
+  display: flex;
+}
+.carousel-caption {
+  position: absolute;
+  top: 0;
+}
+
+.carousel-caption h4 {
+  color: #fff
+}
+
+
+#product-carousel {
+  display:block;
+  height:300px;
+  padding:30px;
+  margin:40px;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#post-carousel img {
+  display:block;
+  height:300px;
+  padding:30px;
+  margin:40px;
+  border-radius: 12%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.carousel a {
+  margin: 0 auto;
+}
+@media (max-width: 900px) {
+  .carousel-caption h2 {
+    font-size: 2.5vw;
+  }
+}
+
+.background-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.background-video video {
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.circle {
+  position: relative;
+  display: inline-block;
+
+}
+
+.circle {
+  top: -8px; /* Posiziona il cerchio sopra l'icona principale */
+  right: -25px; /* Posiziona il cerchio a destra dell'icona principale */
+  background-color: red; /* Imposta il colore di sfondo del cerchio */
+  border-radius: 50%; /* Imposta la forma circolare */
+  width: 10px; /* Imposta la larghezza del cerchio */
+  height: 10px; /* Imposta l'altezza del cerchio */
+  
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#center-button {
+  font-size: 24px;
+  padding: 20px 40px;
+  background-color: #0b2f3a;
+  
+}
+
+/* CSS di base per il layout Masonry */
+.my-masonry-grid {
+  display: flex;
+  margin-left: -10px; /* Aggiusta il margine se necessario */
+  flex-wrap: wrap; /* Per fare il wrap degli elementi */
+  width: 100%;
+}
+
+
+
+.my-masonry-grid_column {
+  padding-left: 10px; /* Aggiusta il padding se necessario */
+  background-clip: padding-box;
+  width: 33.33%; /* 3 colonne */
+  box-sizing: border-box; /* Per includere padding e bordi nella larghezza della colonna */
+ 
+}
+
+.my-masonry-grid_column > div {
+  margin-bottom: 10px; /* Aggiusta il margine se necessario */
+  
+}
+
+#modal-text {
+  margin-top:10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
